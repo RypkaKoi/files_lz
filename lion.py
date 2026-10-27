@@ -40,7 +40,6 @@ def word_statistic(file_path = "lion.txt", out_file_path = "word_stat.txt"):
 
     
     sorted_letters = sorted(letter_count.items(), key=lambda item: item[0])
-
     letters = [item[0] for item in sorted_letters]
     counts = [item[1] for item in sorted_letters]
 
